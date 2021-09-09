@@ -1,28 +1,3 @@
-# Template para a Entrega do Projeto Final
-
-# Estrutura de Arquivos e Pastas
-
-A seguir é apresentada a estrutura de pastas esperada para entrega do projeto:
-
-~~~
-├── README.md  <- arquivo com o relatório do projeto
-│
-├── images     <- arquivos de imagens usadas no documento
-│
-└── resources  <- outros recursos (se houver)
-~~~
-
-Na raiz deve haver um arquivo de nome `README.md` contendo a apresentação da equipe e relatório do projeto, como detalhado na seção seguinte.
-
-# Modelo para Apresentação da Equipe e Relatório do Projeto
-
-Segue abaixo o modelo de como devem ser documentadas as entregas. Tudo o que for indicado entre `<...>` indica algo que deve ser substituído pelo indicado.
-> Além disso, tudo o que aparecer neste modo de citação também se refere algo que deve ser substituído pelo indicado. No modelo são colocados exemplos ilustrativos, que serão substituídos pelos da sua apresentação.
-
-Para a construção dos diagramas, devem ser usados modelos disponíveis em: [Diagramas de Referência do Projeto Final](https://docs.google.com/presentation/d/1HWiTx0HU781sf3A7sdAda_LQeMHqbvIXkh-uSRDo0Js/edit?usp=sharing). Há versões em PPT e ODT no diretório [resources/](resources/).
-
-# Modelo para Apresentação da Equipe e Relatório do Projeto
-
 # Projeto `CRS - Marketplace`
 
 # Equipe
@@ -34,8 +9,6 @@ Para a construção dos diagramas, devem ser usados modelos disponíveis em: [Di
 * `Vitor Corrêa Oliveira`
 
 # Nível 1
-
-> Apresente aqui o detalhamento do Nível 1 conforme detalhado na especificação com, no mínimo, as seguintes subseções:
 
 ## Diagrama Geral do Nível 1
 
@@ -387,25 +360,6 @@ As interfaces listadas são detalhadas a seguir:
 
 # Nível 2
 
-> Apresente aqui o detalhamento do Nível 2 conforme detalhado na especificação com, no mínimo, as seguintes subseções:
-
-## Diagrama do Nível 2
-
-> Apresente um diagrama conforme o modelo a seguir:
-
-> ![Modelo de diagrama no nível 2](images/diagrama-subcomponentes.png)
-
-### Detalhamento da interação de componentes
-
-> O detalhamento deve seguir um formato de acordo com o exemplo a seguir:
-
-* O componente `Entrega Pedido Compra` assina no barramento mensagens de tópico "`pedido/+/entrega`" através da interface `Solicita Entrega`.
-  * Ao receber uma mensagem de tópico "`pedido/+/entrega`", dispara o início da entrega de um conjunto de produtos.
-* Os componentes `Solicita Estoque` e `Solicita Compra` se comunicam com componentes externos pelo barramento:
-  * Para consultar o estoque, o componente `Solicita Estoque` publica no barramento uma mensagem de tópico "`produto/<id>/estoque/consulta`" através da interface `Consulta Estoque` e assina mensagens de tópico "`produto/<id>/estoque/status`" através da interface `Posição Estoque` que retorna a disponibilidade do produto.
-
-> Para cada componente será apresentado um documento conforme o modelo a seguir:
-
 ## Componente `Distribuição de Ofertas`
 
 > Resumo do papel do componente e serviços que ele oferece.
@@ -455,11 +409,11 @@ As interfaces listadas são detalhadas a seguir:
 
 ## Diagrama do Nível 3
 
+> O aplicativo pode ser acessado [clicando aqui](resources/crsFinalProject.aia)
+
 > Interface de compra de um produto
 
 ![Captura de Tela do Protótipo](images/crs-marketplace-product-interface.png)
-
-> Apresente o diagrama referente ao protótipo conforme o modelo a seguir:
 
 ![Diagrama Nivel 3](images/N3-diagrama.png)
 
