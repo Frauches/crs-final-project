@@ -62,7 +62,7 @@ As interfaces listadas são detalhadas a seguir:
 
 ## Detalhamento das Interfaces
 
-### Interface `<nome da interface>`
+### Interface `FindProducts`
 
 > Resumo do papel da interface.
 
@@ -77,11 +77,220 @@ As interfaces listadas são detalhadas a seguir:
 ![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
 ![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
 
-> Diagrama representando o esquema das mensagens JSON utilizadas na interface, pode ser em formato texto conforme exemplo:
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
 
 ![Diagrama de Mensagens JSON](images/N1-message-01.jpg)
+
+### Interface `ShowProduct`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-01.jpg)
+
+### Interface `AnalyzeSearches`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-01.jpg)
+
+### Interface `ReceiveOffer`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-01.jpg)
+
+### Interface `CreateOffer`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-01.jpg)
+
+
+### Interface `RequestBuy`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
 ![Diagrama de Mensagens JSON](images/N1-message-02.jpg)
+
+
+### Interface `CreateOrder`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-01.jpg)
+
+### Interface `FollowOrder`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-02.jpg)
+
+### Interface `SendOrder`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-02.jpg)
+
+### Interface `SendPayment`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
 ![Diagrama de Mensagens JSON](images/N1-message-03.jpg)
+
+### Interface `ReceivePayment`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-03.jpg)
+
+### Interface `Order`
+
+> Resumo do papel da interface.
+
+> Dados da interface podem ser apresentados em formato texto, conforme exemplo:
+
+* Type: `sink`
+* Topic: `pedido/+/entrega`
+* Message type: `Order`
+
+> Ou em formato de imagem, conforme exemplo:
+
+![Diagrama de Interface de Mensagens](images/N1-topicos-1.jpg)
+![Diagrama de Interface de Mensagens](images/N1-topicos-2.jpg)
+
+> Diagrama representando o esquema das mensagens JSON utilizadas na interface:
+
+![Diagrama de Mensagens JSON](images/N1-message-02.jpg)
 
 # Nível 2
 
